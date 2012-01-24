@@ -1,0 +1,14 @@
+Arduino is a great project, which let many non-professional programmer enjoy 
+embedded programming. Most of its source code are provided as C++, which is 
+not neccessary in real applications writing.
+
+In this project, I would like to practice the following things..
+
+1) Learn to write the project building system with cmake scripts
+
+2) Rewrite and test the important CPP library to C library for effeciency...
+
+3) Emulated thread prgramming 
+
+4) Realtime OS for MCU: freertos or femtoos
+
