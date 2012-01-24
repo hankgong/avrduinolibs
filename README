@@ -12,3 +12,26 @@ In this project, I would like to practice the following things..
 
 4) Realtime OS for MCU: freertos or femtoos
 
+
+Current objective will be
+----------------------------------------
+\--avrduinolibs
+   \--corlibs # the major soure code folder
+      \--xxx.c
+      \--xxx.cpp
+
+    \--test  # sample projects
+       \--proj1  
+          \--cmakesettings
+          \--realcode.c or .cpp
+
+-The general compiling setting for avr-gcc/g++ should be in the main foder
+-We should be able to specify the MCU type, working frequency
+-We can set the programmer communication protocol
+-It should provide make readfuse, make writefuse
+-It should provide command make upload
+-make release/debug support
+
+The major benefit of this method over eclipse avrplugins is
+-Light-weight
+-Natual git support
